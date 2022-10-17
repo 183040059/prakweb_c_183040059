@@ -5,13 +5,12 @@
 // game
 
 class Produk {
-    public $judul = "judul",
-           $penulis = "penulis",
-           $penerbit = "penerbit",
-           $harga = 0;
+    public $judul, 
+           $penulis, 
+           $penerbit, 
+           $harga; 
 
 }
 
 $produk1 = new Produk();
-$produk1->judul = "Naruto";
-var_dump($produk1);
+var_dump($produc1);
